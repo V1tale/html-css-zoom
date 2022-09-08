@@ -39,7 +39,7 @@ img {
     font-size: 1.4rem;
     padding: 10px 25px;
     width:100%;
-    vertical-align: middle;
+    height:40px;
 }
 .speaker-view span {
     background-color: #4b4b4b;
@@ -48,12 +48,13 @@ img {
 }
 .full-screen {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
     background-color: #4b4b4b;
     text-align: center;
     border-radius: 10px;
-    padding: 2px;
+    padding: 4px 8px;
+
 }
 .user {
     color: white;
@@ -75,6 +76,7 @@ img {
 .toolbar, .first-part, .central-part, .right-part {
     display:flex;
     justify-content: center;
+    position:relative;
 }
 .menu {
     margin: 0 10px;
@@ -91,11 +93,15 @@ img {
    font-size: 1.2rem;
 }
 .right-part {
-    color: red;
+    color: #232323;
     background-color: #a3a1a1;
     font-size: 1rem;
     padding: 10px;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    height: 100%;
 }
  i:hover {
     cursor: pointer;
@@ -103,4 +109,8 @@ img {
 }
 .fa-solid {
     align-self: center;
+}
+.right-part h3:hover {
+    color: red;
+    cursor: pointer;
 }
