@@ -36,29 +36,24 @@ img {
     text-align: right;
     background-color: black;
     color: white;
-    font-size: 2rem;
+    font-size: 1.4rem;
     padding: 10px 25px;
-    display: inline-block;
-    height:40px;
     width:100%;
+    vertical-align: middle;
 }
 .speaker-view span {
     background-color: #4b4b4b;
     border-radius: 10px;
     padding: 3px 3px 3px 6px;
-    font-weight: thin;
-    height: 30px;
-    vertical-align: middle;
 }
-.speaker-view > i {
+.full-screen {
+    display: inline-block;
     width: 30px;
     height: 30px;
     background-color: #4b4b4b;
     text-align: center;
-    vertical-align: middle;
-    font-weight: thin;
     border-radius: 10px;
-    padding: 3px 3px 3px 3px;
+    padding: 2px;
 }
 .user {
     color: white;
@@ -101,5 +96,11 @@ img {
     font-size: 1rem;
     padding: 10px;
     align-items: center;
-
+}
+ i:hover {
+    cursor: pointer;
+    color: rgb(0, 211, 46);
+}
+.fa-solid {
+    align-self: center;
 }
